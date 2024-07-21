@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  .flag {
+    width: 800px;
+    height: 500px;
+  }
+  
+  .upper {
+    height: 33%;
+    width: 100%;
+    background-color: red;
+  }
+  
+  .mid {
+    height: 33.33%;
+    width: 100%;
+    background-color: #FDC100;
+  }
+  
+  .mid img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 100px;
+  }
+  
+  .lower {
+    height: 33%;
+    width: 100%;
+    background-color: red;
+  }
+  
